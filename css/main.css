@@ -1,0 +1,105 @@
+/*NAVIGATION BAR SECTION*/
+.navbar {
+  background-color: #fe7e00;
+  display: inline-block;
+  width: 110%;
+  padding: 30px 40px 10px 40px;
+  margin: -10px;
+  height: -10px;
+  text-align: right;
+}
+
+.navbar #logo {
+  text-align: left;
+}
+
+li {
+  display: inline-block;
+  font-size: 30px;
+  padding-left: 20px;
+}
+
+a {
+  text-decoration: none;
+  text-align: center;
+  font-family: "Open Sans" sans-serif;
+  color: white;
+  right: 10%;
+}
+
+/* MIDDLE SECTION */
+
+.searchbar #search {
+  text-align: right;
+  padding-top: 35px;
+  padding-right: 40px;
+  font-size: 20px;
+}
+.main #left {
+  text-align: left;
+}
+.main #right {
+  text-align: left;
+  font-size: 40px;
+  text-decoration: inherit;
+  position:absolute;
+  bottom: 10px;
+  left: 650px;
+  top: 290px;
+  width: 700px;
+
+  color: #fe7e00;
+}
+#buttondiv{
+  position: absolute;
+  bottom: 10px;
+  left: 650px;
+  top: 440px;
+
+}
+.orange {
+  font-weight: bold;
+}
+
+.lightblue {
+  color: #7fcdca;
+}
+
+button {
+  background-color: #fe7e00;
+  border: none;
+  color: white;
+  padding: 15px 42px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+button.rightbutton {
+  background-color: #7fcdca;
+  color: white;
+  border: none;
+  padding: 15px 42px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+
+/*FOOTER SECTION */
+
+.bottomsec {
+  background-color: #7fcdca;
+  width: 110%;
+  padding: 60px 60px 80px 60px;
+  margin:  -3px;
+
+
+
+}
